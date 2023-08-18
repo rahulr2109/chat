@@ -123,7 +123,8 @@ function SideDrawer() {
   return (
     <>
       <Box
-        d="flex"
+        display="flex"
+        flexDir="row"
         justifyContent="space-between"
         alignItems="center"
         bg="white"
